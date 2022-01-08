@@ -16,23 +16,74 @@ session_start();
 </head>
 <body>
 <div class="NavBar">
-<a href="index.html" id="logo"><span>F</span>un maker</a>
-    <ul>  
-        <li><a href="flights.html">Home </a></li>
-		<li><a href="attractions.html"> About us </a></li>
-        <li><a href="hotel.html"> Favorite list </a></li>
-        <li><a href="car.html"> contact us</a></li>
+<a href="#" id="logo"><span>F</span>un maker</a>
+<span class="NavBar1" ></span>
+<ul>  
+        <li><a href="index.php">Home </a></li>
+		<li><a href="aboutus.php"> About us </a></li>
+        <li><a href="#"> Favorite list </a></li>
+        <li><a href="#"> contact us</a></li>
+</ul>
+</span>
+	<ul class="navnav">
 		<input id="search"  placeholder="Search category ..." >
 		<input id="search"  placeholder="Search attraction ...">
-
+		<li><span> welcome back , <?php echo $user_data['user_name']; ?> </span></li>
     </ul>
 </div>
-		
-<br>
+
 <br><br><br><br><br><br><br>
-	<div class="main">
-		Hello, <?php echo $user_data['user_name']; ?>
+
+	<div class="hi">
+	<span>To make your weekend better :) </span>
 	</div>
+
+
+	<br><br><br><br><br><br>
+
+<div class="allCategorys">
+	<div class="category">
+			<div class="card" style="width: 18rem;">
+			<img class="card-img-top" src="../images/Indoor category.png" alt="Card image cap">
+			<div class="card-body">
+				<p class="card-text">Indoor category</p>
+			</div>
+			</div>
+	</div>
+	<div class="category">
+			<div class="card" style="width: 18rem;">
+			<img class="card-img-top" src="../images/Extreme category.png" alt="Card image cap">
+			<div class="card-body">
+				<p class="card-text">Extreme category</p>
+			</div>
+			</div>
+	</div>
+	<div class="category">
+			<div class="card" style="width: 18rem;">
+			<img class="card-img-top" src="../images/Water category.png" alt="Card image cap">
+			<div class="card-body">
+				<p class="card-text">Water category</p>
+			</div>
+			</div>
+	</div>
+	<div class="category">
+			<div class="card" style="width: 18rem;">
+			<img class="card-img-top" src="../images/Offroad category.png" alt="Card image cap">
+			<div class="card-body">
+				<p class="card-text">Offroad category</p>
+			</div>
+			</div>
+	</div>
+	<div class="category">
+			<div class="card" style="width: 18rem;">
+			<img class="card-img-top" src="../images/Ski category.png" alt="Card image cap">
+			<div class="card-body">
+				<p class="card-text">Winter category</p>
+			</div>
+			</div>
+	</div>
+</div>
+
 
 </body>
 </html>
