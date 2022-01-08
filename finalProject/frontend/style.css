@@ -9,21 +9,25 @@
 
 .NavBar{
     position: absolute ; 
-    width: 98%;
+    width: 99%;
     display: flex ;
-    justify-content: space-between ;
+    justify-content: space-between;
     align-items: center ;
+    text-decoration: none;
+
 }
 .NavBar ul{
     display: flex ;
-    margin : 0 100px ; 
-    margin-right: 10px;
+    margin : 0 90px ; 
+    margin-right: 0%;
+    text-decoration: none;
+
 }
 .NavBar ul li{
     padding: 22px; 
     align-items: center ;
-    font-size: 20px ; 
-
+    font-size: 30px ; 
+    text-decoration: none;
 
 }
 #search{
@@ -35,7 +39,7 @@
     display: block;
     border: 1px solid #0b426e;
     float:right;
-    background-color:#1a5e9525;
+    background-color:#1b629c38;
     border-bottom-right-radius: 25px;
     border-top-left-radius: 25px;
 
@@ -44,18 +48,48 @@
 
 #logo{
     padding: 15px;
-    font-size: 24px;
+    font-size: 30px;
     letter-spacing: spacing 2%;
-    margin:0 30 ; 
+    margin-right: 140px;
+    padding: 4px;
 }
 
 #logo span{
     color: #0b426e ; 
     font-size: 49px ; 
     font-weight :700;
+    
 }
-/* <-----------------> main <-----------------> */
+
+.hi span{
+    font-size:50px ; 
+    margin-left: 1100px;
+    color: #0e4b7e; 
+}
 
 #main {
     margin-top: 40;
 }
+
+.allCategorys{
+    display: flex ;
+ 
+}
+.category{
+    padding: 5px ; 
+    margin-left: 117px;
+    border-bottom: 1px solid ;
+    width: 14.9%;
+
+}
+.card-text{
+   margin-left: 120px;
+    font-size: 25px;
+
+}
+
+.card-img-top{
+    width: 132%;
+
+}
+
