@@ -9,22 +9,37 @@
 
 .NavBar{
     position: absolute ; 
-    width: 100%;
+    width: 98%;
     display: flex ;
     justify-content: space-between ;
     align-items: center ;
 }
 .NavBar ul{
     display: flex ;
-    margin : 0 10px ; 
+    margin : 0 100px ; 
+    margin-right: 10px;
 }
 .NavBar ul li{
-    padding: 25px; 
+    padding: 22px; 
     align-items: center ;
-    font-size: 18px ; 
+    font-size: 20px ; 
+
 
 }
+#search{
+    background-image: url('../Pictures/search.png');
+    width: 240px;
+    padding: 8px;
+    font-size: 15px;
+    margin: 10px;
+    display: block;
+    border: 1px solid #0b426e;
+    float:right;
+    background-color:#1a5e9525;
+    border-bottom-right-radius: 25px;
+    border-top-left-radius: 25px;
 
+}
 /* <-----------------> logo <-----------------> */
 
 #logo{
@@ -37,7 +52,7 @@
 #logo span{
     color: #0b426e ; 
     font-size: 49px ; 
-    font-weight :800;
+    font-weight :700;
 }
 /* <-----------------> main <-----------------> */
 
