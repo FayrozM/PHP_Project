@@ -11,6 +11,7 @@ session_start();
 <!DOCTYPE html>
 <html>
 <head>
+<link rel="stylesheet" href="../frontend/index.css">
 	<title>My website</title>
 </head>
 <body>
