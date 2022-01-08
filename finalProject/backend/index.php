@@ -11,31 +11,31 @@ session_start();
 <!DOCTYPE html>
 <html>
 <head>
-<link rel="stylesheet" href="../frontend/index.css">
+<link rel="stylesheet" href="../frontend/style.css">
 	<title>home</title>
 </head>
 <body>
-<div>
-	<div class="Navbar">
-		<a href="index.html" id="logo"><span>V</span>ubert</a>
-			<!--ID - של סרגל הכלים -->
-			<ul id="Toolbar">
-			<li><a href="index.html">Home</a></li>
-			<li><a href="bundles.html">Bundles</a></li>
-			<li><a href="community.html">Community</a></li>
-			<li><a href="contact.html">Contact</a></li>
-			<li><a href="about.html">About</a></li>
-			<li>|</li>
-			<li><a href="signIn.html">Sign in</a></li>
-			</ul>
-	</div>
-
-		<a href="logout.php">Logout</a>
-		<h1>This is the index page</h1>
-
+<div class="NavBar">
+<a href="index.html" id="logo"><span>F</span>un maker</a>
+    <ul>  
+        <li><a class="act" href="home.php">Home</a></li>
+        <li><a href="flights.html">Flights </a></li>
+        <li><a href="hotel.html"> Hotel </a></li>
+        <li><a href="car.html"> Car Rentals </a></li>
+        <li><a href="attractions.html"> Attractions </a></li>
+        <li><a href="signup.php" > Sign in </a></li>
+		<li><a href="logout.php">Logout</a></li>
+        
+    </ul>
+</div>
+		
+<br>
+<br><br><br><br><br><br><br>
+	<div class="main">
+	<a> href="logout.php">Logout</a>
 		<br>
 		Hello, <?php echo $user_data['user_name']; ?>
-</div>
+	</div>
 
 </body>
 </html>
