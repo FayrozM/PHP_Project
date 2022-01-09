@@ -54,13 +54,13 @@
 
 
 #feedback{
-    background-color: #0d3a6098;
+    background-color: #006699;
     margin-left: 10px;
     transition: 0.3s;
   }
   #feedback:hover{
     border-bottom-right-radius: 45px;
-    background-color: #0d3a6098;
+    background-color: #006699;
   }
 
   .feedbackButton button {
