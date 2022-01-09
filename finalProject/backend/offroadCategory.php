@@ -11,7 +11,7 @@ session_start();
 <html>
 <head>
 <link rel="stylesheet" href="../frontend/offroadCategory.css">
-	<title>About Us</title>
+	<title>Offroad Category</title>
 </head>
 
 <body>
