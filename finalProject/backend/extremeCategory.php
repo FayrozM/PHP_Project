@@ -11,7 +11,7 @@ session_start();
 <html>
 <head>
 <link rel="stylesheet" href="../frontend/extremeCategory.css">
-	<title>About Us</title>
+	<title>Extreme Category</title>
 </head>
 
 <body>
