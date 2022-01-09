@@ -46,6 +46,7 @@ session_start();
 ?>
 
 
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -57,15 +58,68 @@ session_start();
 	<div id="box">
 		
 		<form method="post">
-			<div style="font-size: 20px;margin: 10px;color: white;">Login</div>
+			<div style="font-size: 50px;margin: 10px;color: black;">Login</div>
+			<br>
+			<input id="text" type="text" name="user_name" placeholder="Enter your username ..."><br><br>
+			<input id="text" type="password" name="password" placeholder="Enter your password ..."><br><br>
 
-			<input id="text" type="text" name="user_name"><br><br>
-			<input id="text" type="password" name="password"><br><br>
+			<input id="button" type="submit" value="Login">
 
-			<input id="button" type="submit" value="Login"><br><br>
-
-			<a href="signup.php">Click to Signup</a><br><br>
+			<div style="font-size: 20px;margin: 10px;color: black;"><a href="signup.php">Click me Signup</a><br><br></div>
+			
 		</form>
 	</div>
+
 </body>
 </html>
+
+
+
+<style>
+
+#text{
+
+height: 40px;
+border-radius: 5px;
+padding: 4px;
+border: solid thin black;
+width: 100%;
+border-bottom-right-radius: 45px;
+border-top-right-radius: 45px;
+
+
+}
+
+#button{
+
+padding: 20px;
+width: 150px;
+color: black;
+background-color: ##bf8040;
+border: none;
+border-bottom-right-radius: 45px;
+border-top-right-radius: 45px;
+
+}
+
+#box{
+background-color:##66a3ff;
+margin: auto;
+width: 500px;
+padding: 100px;
+margin-top: 5%;
+box-shadow: 0 0 25px rgb(0, 0, 0);
+margin-right:70%;
+
+}
+
+
+	
+body{
+
+background-image: url('../images/bicycle.jpg');
+background-size: 100%;
+background-repeat: no-repeat; 
+}
+
+</style>
