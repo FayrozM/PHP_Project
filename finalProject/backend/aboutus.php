@@ -24,16 +24,15 @@ session_start();
 		<li><a href="aboutus.php"> About us </a></li>
         <li><a href="#"> Favorite list </a></li>
         <li><a href="#"> contact us</a></li>
+        <li><span> <?php echo $user_data['user_name']; ?> </span></li>
 	</ul>
 </span>
-	<ul class="navnav">
-		<li><span> <?php echo $user_data['user_name']; ?> </span></li>
-    </ul>
+
 </div>
    <div class="Main-Content">
       <div class="About-Us" >
         <div class="Aya Box">
-        <img class="img" src="../images/Indoor category.png" alt="Card image cap">
+        <img src="../images/ayaa.jpg"  style="width:50%" >
           <div class="Info-Box">
             <h1>Aya </h1>
             <p >Hi, I am Aya Ismael ,</p>
