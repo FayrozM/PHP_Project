@@ -16,15 +16,17 @@ session_start();
 
 <body>
 <div class="NavBar">
-<a href="#" id="logo"><span>F</span>un maker</a>
+<a href="index.php" id="logo"><span>F</span>un maker</a>
 <span class="NavBar1" ></span>
 <ul >  
 	
         <li><a href="index.php">Home </a></li>
-		<li><a href="aboutus.php"> About us </a></li>
         <li><a href="#"> Favorite list </a></li>
-        <li><a href="#"> contact us</a></li>
+        <li><a href="feedback.php">Feedback</a></li>
+        <li><a></a>|</li>
         <li><span> <?php echo $user_data['user_name']; ?> </span></li>
+        <li><a href="logout.php">Logout</a></li>
+
 	</ul>
 </span>
 
