@@ -15,6 +15,8 @@ session_start();
 	<title>home</title>
 </head>
 <body>
+
+<div class="main">
 <div class="NavBar">
 <a href="index.php" id="logo"><span>F</span>un maker</a>
 <span class="NavBar1" ></span>
@@ -59,6 +61,8 @@ session_start();
 	</div>
 </div>
 
+
+</div>
 
 </body>
 </html>
