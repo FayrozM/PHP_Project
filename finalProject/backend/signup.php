@@ -29,56 +29,75 @@ session_start();
 	}
 ?>
 
-
 <!DOCTYPE html>
 <html>
 <head>
 	<title>Signup</title>
+	<link rel="stylesheet" href="../frontend/signup.css">
+
 </head>
 <body>
 
-	<style type="text/css">
-	
+	<div id="box">
+		
+		<form method="post">
+			<div style="font-size: 50px;margin: 20px;color: black;">- Signup - </div>
+
+			<input id="text" type="text" name="user_name" placeholder="Enter your name ..."><br><br>
+			<input id="text" type="password" name="password" placeholder="Enter your password ..."><br><br>
+
+			<input id="button" type="submit" value="Signup"><br><br>
+
+			<span class="login"><a href="login.php" >Click me to Login</a><br><br></span>
+		</form>
+	</div>
+	</div>
+</body>
+</html>
+
+<style type="text/css">
+
+body{
+
+		background-image: url('../images/surfing.jpg');
+		background-size: 105%;
+		background-repeat: no-repeat; 
+	}
 	#text{
 
-		height: 25px;
+		height: 35px;
 		border-radius: 5px;
 		padding: 4px;
 		border: solid thin #aaa;
-		width: 100%;
+		width: 130%;
+		border-bottom-right-radius: 45px;
+		border-top-right-radius: 45px;
 	}
 
 	#button{
 
 		padding: 10px;
-		width: 100px;
+		width: 150px;
 		color: white;
-		background-color: lightblue;
+		background-color: #006699;
 		border: none;
+		border-bottom-right-radius: 45px;
+		border-top-right-radius: 45px;
 	}
 
 	#box{
-
-		background-color: grey;
 		margin: auto;
-		width: 300px;
+		width: 350px;
 		padding: 20px;
+		margin-top: 10%;
+
 	}
+
+
+.Bg-Image {
+  background-repeat: no-repeat; /* להציג את התמונה פעם אחת בלבד  */  background-position: center;
+  background-size: cover;
+}
 
 	</style>
 
-	<div id="box">
-		
-		<form method="post">
-			<div style="font-size: 20px;margin: 10px;color: white;">Signup</div>
-
-			<input id="text" type="text" name="user_name"><br><br>
-			<input id="text" type="password" name="password"><br><br>
-
-			<input id="button" type="submit" value="Signup"><br><br>
-
-			<a href="login.php">Click to Login</a><br><br>
-		</form>
-	</div>
-</body>
-</html>
