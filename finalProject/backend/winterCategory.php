@@ -20,7 +20,7 @@ session_start();
 <span class="NavBar1" ></span>
 <ul >  
         <li><a href="index.php">Home </a></li>
-		<li><a href="aboutus.php"> About us </a></li>
+		<li><a href="admins.php"> About us </a></li>
         <li><a href="#"> Favorite list </a></li>
         <li><a href="feedback.php">Feedback</a></li>
 		<li><a></a>|</li>
