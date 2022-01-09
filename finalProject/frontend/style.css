@@ -2,7 +2,7 @@
 *{
     text-decoration: none;
     list-style: none;
-    color: rgb(0, 0, 0);
+    color: #042f5cc1;
 
 }
 /* <-----------------> navBar <-----------------> */
@@ -37,9 +37,9 @@
     font-size: 15px;
     margin: 10px;
     display: block;
-    border: 1px solid #0b426e;
+    border: 1px solid #041e57;
     float:right;
-    background-color:#1b629c38;
+    background-color:#042f5cc1;
     border-bottom-right-radius: 25px;
     border-top-left-radius: 25px;
 
@@ -48,22 +48,22 @@
 
 #logo{
     padding: 15px;
-    font-size: 30px;
+    font-size: 40px;
     letter-spacing: spacing 2%;
     margin-right: 140px;
     padding: 4px;
 }
 
 #logo span{
-    color: #0b426e ; 
-    font-size: 49px ; 
+    color: #073c67 ; 
+    font-size: 65px ; 
     font-weight :700;
     
 }
 
 .hi span{
     font-size:50px ; 
-    color: #0e4b7e; 
+    color: rgb(6, 82, 140); 
     margin-left: 1140px;
 }
 
@@ -94,4 +94,14 @@
     width: 132%;
 
 }
+
+
+body{
+
+    background-image: url('../images/csky.png');
+    background-size: 100%;
+    background-repeat: no-repeat; 
+}
+
+
 
