@@ -81,4 +81,9 @@
   .feedbackErea{
     margin-left: 50px;
   }
+  body{
+    background-image: url('../images/d.png');
+    background-size: 100%;
+    background-repeat: no-repeat; 
+}
 
