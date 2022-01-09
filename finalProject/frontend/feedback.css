@@ -69,7 +69,7 @@
     width: 200px;
     height: 45px;
     outline: none;
-    text-transform: uppercase; /* אותיות גדולות */
+    text-transform: uppercase; 
   }
 
   .giveFeedback{
