@@ -46,7 +46,7 @@ session_start();
 			<div class="card" style="width: 18rem;">
 			<img class="card-img-top" src="../images/Indoor category.png" alt="Card image cap">
 			<div class="card-body">
-				<p class="card-text">Indoor category</p>
+				<p class="card-text"><a href="indoorCategory.php">Indoor category</p>
 			</div>
 			</div>
 	</div>
@@ -54,7 +54,7 @@ session_start();
 			<div class="card" style="width: 18rem;">
 			<img class="card-img-top" src="../images/Extreme category.png" alt="Card image cap">
 			<div class="card-body">
-				<p class="card-text">Extreme category</p>
+				<p class="card-text"><a href="extremeCategory.php">Extreme category</p>
 			</div>
 			</div>
 	</div>
@@ -62,7 +62,7 @@ session_start();
 			<div class="card" style="width: 18rem;">
 			<img class="card-img-top" src="../images/Water category.png" alt="Card image cap">
 			<div class="card-body">
-				<p class="card-text">Water category</p>
+				<p class="card-text"><a href="waterCategory.php">Water category</p>
 			</div>
 			</div>
 	</div>
@@ -70,7 +70,7 @@ session_start();
 			<div class="card" style="width: 18rem;">
 			<img class="card-img-top" src="../images/Offroad category.png" alt="Card image cap">
 			<div class="card-body">
-				<p class="card-text">Offroad category</p>
+				<p class="card-text"><a href="offroadCategory.php">Offroad category</p>
 			</div>
 			</div>
 	</div>
@@ -78,7 +78,7 @@ session_start();
 			<div class="card" style="width: 18rem;">
 			<img class="card-img-top" src="../images/Ski category.png" alt="Card image cap">
 			<div class="card-body">
-				<p class="card-text">Winter category</p>
+				<p class="card-text"><a href="winterCategory.php">Winter category</p>
 			</div>
 			</div>
 	</div>
