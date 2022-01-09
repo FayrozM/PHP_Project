@@ -11,7 +11,7 @@ session_start();
 <html>
 <head>
 <link rel="stylesheet" href="../frontend/indoorCategory.css">
-	<title>About Us</title>
+	<title>Indoor Category</title>
 </head>
 
 <body>
