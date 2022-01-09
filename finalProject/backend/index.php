@@ -15,7 +15,8 @@ session_start();
 	<title>home</title>
 </head>
 <body>
-<div class="NavBar">
+	<div class="main">
+	<div class="NavBar">
 <a href="index.php" id="logo"><span>F</span>un maker</a>
 <span class="NavBar1" ></span>
 <ul>  
@@ -32,11 +33,11 @@ session_start();
     </ul>
 </div>
 
-<br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br>
 
 	<div class="hi">
 	<span>To make your weekend better :) 
-	<br><br>
+	<br><br><br>
 	The israel is home to some of the most spectacular scenery in the world <br> 
 	and some of the most recognizable icons on the planet. <br>
 				Many of the top attractions in israel are bucket list destinations, drawing visitors from around the world.<br>
@@ -96,6 +97,6 @@ session_start();
 	</div>
 </div>
 
-
+	</div>
 </body>
 </html>
