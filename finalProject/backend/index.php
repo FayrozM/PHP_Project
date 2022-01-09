@@ -19,7 +19,7 @@ session_start();
 <a href="index.php" id="logo"><span>F</span>un maker</a>
 <span class="NavBar1" ></span>
 <ul>  
-		<li><a href="aboutus.php"> About us </a></li>
+		<li><a href="admins.php"> About us </a></li>
         <li><a href="#"> Favorite list </a></li>
         <li><a href="feedback.php">Feedback</a></li>
 </ul>
@@ -35,8 +35,20 @@ session_start();
 <br><br><br><br><br><br><br>
 
 	<div class="hi">
-	<span>To make your weekend better :) </span>
-	</div>
+	<span>To make your weekend better :) 
+	<br><br>
+	The israel is home to some of the most spectacular scenery in the world <br> 
+	and some of the most recognizable icons on the planet. <br>
+				Many of the top attractions in israel are bucket list destinations, drawing visitors from around the world.<br>
+
+				Plenty of options await you, with incredible sights sprinkled across the country. 
+				<br>
+				<br>
+				--> Note: Some businesses may be temporarily closed due to recent global health and safety issues - ( Covid-19 ).
+	</span>
+</div>
+
+
 
 
 	<br><br><br><br><br><br>
