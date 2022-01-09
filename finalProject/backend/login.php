@@ -62,7 +62,11 @@ session_start();
 			<br>
 			<input id="text" type="text" name="user_name" placeholder="Enter your username ..."><br><br>
 			<input id="text" type="password" name="password" placeholder="Enter your password ..."><br><br>
-
+			<div id="checkbox" >
+                <input type="checkbox"  >
+                <a> Remember me :) </a>
+            </div>
+			<br><br>
 			<input id="button" type="submit" value="Login">
 
 			<div style="font-size: 20px;margin: 10px;color: black;"><a href="signup.php">Click me Signup</a><br><br></div>
@@ -122,4 +126,9 @@ background-size: 100%;
 background-repeat: no-repeat; 
 }
 
+
+#checkbox{
+      display: inline;
+      padding: 30;
+  }
 </style>
