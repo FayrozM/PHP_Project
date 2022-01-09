@@ -11,7 +11,7 @@ session_start();
 <html>
 <head>
 <link rel="stylesheet" href="../frontend/waterCategory.css">
-	<title>About Us</title>
+	<title>Water category</title>
 </head>
 
 <body>
