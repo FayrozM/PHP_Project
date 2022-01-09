@@ -16,19 +16,19 @@ session_start();
 </head>
 <body>
 <div class="NavBar">
-<a href="#" id="logo"><span>F</span>un maker</a>
+<a href="index.php" id="logo"><span>F</span>un maker</a>
 <span class="NavBar1" ></span>
 <ul>  
-        <li><a href="index.php">Home </a></li>
 		<li><a href="aboutus.php"> About us </a></li>
         <li><a href="#"> Favorite list </a></li>
-        <li><a href="feedback.php"> feedback</a></li>
+        <li><a href="feedback.php">Feedback</a></li>
 </ul>
 </span>
 	<ul class="navnav">
 		<input id="search"  placeholder="Search category ..." >
 		<input id="search"  placeholder="Search attraction ...">
 		<li><span> welcome back , <?php echo $user_data['user_name']; ?> </span></li>
+		<li><a href="logout.php">Logout</a></li>
     </ul>
 </div>
 
