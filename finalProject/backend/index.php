@@ -22,7 +22,7 @@ session_start();
         <li><a href="index.php">Home </a></li>
 		<li><a href="aboutus.php"> About us </a></li>
         <li><a href="#"> Favorite list </a></li>
-        <li><a href="#"> contact us</a></li>
+        <li><a href="feedback.php"> feedback</a></li>
 </ul>
 </span>
 	<ul class="navnav">
