@@ -80,3 +80,17 @@
 
 }
 
+body{
+
+    background-image: url('../images/desert.png');
+    background-size: 100%;
+    background-repeat: no-repeat; 
+}
+
+.Main {
+    width: 100%;
+    height: 100vh;
+    background-color: #1a1818c2; /* בהירות תמונת רקע */
+  
+  }
+  
