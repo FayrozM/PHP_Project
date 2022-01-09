@@ -11,7 +11,7 @@ session_start();
 <html>
 <head>
 <link rel="stylesheet" href="../frontend/winterCategory.css">
-	<title>About Us</title>
+	<title>Winter Category</title>
 </head>
 
 <body>
