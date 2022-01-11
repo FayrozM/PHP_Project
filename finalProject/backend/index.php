@@ -20,6 +20,7 @@ session_start();
 <a href="index.php" id="logo"><span>F</span>un maker</a>
 <span class="NavBar1" ></span>
 <ul>  
+<li><a href="cart.php"> cart</a></li>
 		<li><a href="admins.php"> About us </a></li>
         <li><a href="#"> Favorite list </a></li>
         <li><a href="feedback.php">Feedback</a></li>
