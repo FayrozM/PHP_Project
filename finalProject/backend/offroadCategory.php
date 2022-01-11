@@ -16,10 +16,10 @@ session_start();
 
 <body>
 <div class="NavBar">
-<a href="index.php" id="logo"><span>F</span>un maker</a>
+<a href="home.php" id="logo"><span>F</span>un maker</a>
 <span class="NavBar1" ></span>
 <ul >  
-        <li><a href="index.php">Home </a></li>
+        <li><a href="home.php">Home </a></li>
 		<li><a href="admins.php"> About us </a></li>
         <li><a href="#"> Favorite list </a></li>
         <li><a href="feedback.php">Feedback</a></li>
