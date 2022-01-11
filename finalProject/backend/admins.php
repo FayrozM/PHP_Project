@@ -18,7 +18,7 @@ session_start();
 
 <div class="main">
 <div class="NavBar">
-<a href="index.php" id="logo"><span>F</span>un maker</a>
+<a href="home.php" id="logo"><span>F</span>un maker</a>
 <span class="NavBar1" ></span>
 <ul>  
 		<li><a href="admins.php"> About us </a></li>
