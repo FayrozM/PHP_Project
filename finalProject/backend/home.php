@@ -20,7 +20,6 @@ session_start();
 <a href="finalProject/backend/home.php" id="logo"><span>F</span>un maker</a>
 <span class="NavBar1" ></span>
 <ul>  
-<li><a href="finalProject/backend/index.php"> cart</a></li>
 		<li><a href="admins.php"> About us </a></li>
         <li><a href="#"> Favorite list </a></li>
         <li><a href="feedback.php">Feedback</a></li>
